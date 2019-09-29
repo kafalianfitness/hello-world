@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>Kafalian Fitness - Profile Messages</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/owl.carousel.min.css" rel="stylesheet">
+	  <link href="./css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/step.css" rel="stylesheet">
+
+    <link href="./css/tables.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="./js/ie8-responsive-file-warning.js"></script><![endif]-->
+   <!--  <script src="./js/ie-emulation-modes-warning.js"></script> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+		    <a href="/" class="logo-top"><img  src="./img/logo-top.png" alt="logo top"></a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Kafalian Fitness</a> -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="my_profile">My Profile</a></li>
+				<li><a href="#my_workouts">My Workouts</a></li>
+				<li><a href="#find">Find a workout partner</a></li>
+				<li><a href="#recipes">Recipes</a></li>
+			</ul>
+			<div class="navbar-custom-menu">
+				<ul class="nav navbar-nav">
+				  <!-- Messages: style can be found in dropdown.less-->
+				  <li class="dropdown messages-menu">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					  <i class="fa fa-envelope"></i>
+					  <span class="count-msg">1</span>
+					</a>
+				  </li>
+				  <!-- User Account: style can be found in dropdown.less -->
+				  <li class="dropdown user user-menu">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+						<img src="./img/user.png" class="user-image" alt="User Image">
+					</a>
+				  </li>
+				  <!-- Control Sidebar Toggle Button -->
+				</ul>
+			  </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="table-app" class="table-app owl-carousel">
+      <div class="workout-item past">
+        <div class="workout-heading">
+          <h2>Workout #1 Title</h2>
+        </div>
+        <div id="chronoExample" class="workout-timer">
+          <div class="button-control startButton">start</div>
+          <div class="button-control pauseButton" style="display:none;">Stop</div>
+          <div class="time-data values">00:00:00</div>
+          <div class="button-reset resetButton">reset</div>
+        </div>
+
+
+        <div class="workout-body">
+          <ul class="day-tabs">
+            <li><a href="#week-one-day1" class="active">Day 1</a></li>
+            <li><a href="#week-one-day2">Day 2</a></li>
+          </ul>
+          <div class="day-content">
+            <div id="week-one-day1" class="day active">
+              <div class="day-title">Day 1 - Full Body</div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Dumbbell goblet squats</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Flat dumbbell bench press</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Plank holds</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>N/A</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>30 seconds</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Swiss ball leg curls</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Prone dumbbell rows</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Incline dumbbell bicep curls</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div id="week-one-day2" class="day">
+              <div class="day-title">Day 2 - Full Body</div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Swiss ball leg curls</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Prone dumbbell rows</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Incline dumbbell bicep curls</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Dumbbell goblet squats</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Flat dumbbell bench press</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Plank holds</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>N/A</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>30 seconds</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="workout-footer">
+          <div class="current-week">Week 1</div>
+          <div class="current-weight">Weight: <span class="weight-target">187.91</span><span class="w-point">lbs</span></div>
+
+        </div>
+      </div>
+      <div class="workout-item current">
+        <div class="workout-heading">
+          <h2>Workout #2 Title</h2>
+        </div>
+        <div id="chronoExample" class="workout-timer">
+          <div class="button-control startButton">start</div>
+          <div class="button-control pauseButton" style="display:none;">Stop</div>
+          <div class="time-data values">00:00:00</div>
+          <div class="button-reset resetButton">reset</div>
+        </div>
+
+
+        <div class="workout-body">
+          <ul class="day-tabs">
+            <li><a href="#week-two-day1" class="active">Day 1</a></li>
+            <li><a href="#week-two-day2">Day 2</a></li>
+            <li><a href="#week-two-day3">Day 3</a></li>
+            <li><a href="#week-two-day4">Day 4</a></li>
+          </ul>
+          <div class="day-content">
+            <div id="week-two-day1" class="day active">
+              <div class="day-title">Day 1 - Full Body</div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Dumbbell goblet squats</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Flat dumbbell bench press</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Plank holds</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>N/A</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>30 seconds</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Swiss ball leg curls</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Prone dumbbell rows</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Incline dumbbell bicep curls</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div id="week-two-day2" class="day">
+              <div class="day-title">Day 2 - Full Body</div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Swiss ball leg curls</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Prone dumbbell rows</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Incline dumbbell bicep curls</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Dumbbell goblet squats</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Flat dumbbell bench press</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Plank holds</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>N/A</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>30 seconds</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div id="week-two-day3" class="day">
+              <div class="day-title">Day 3 - Legs</div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Dumbbell goblet squats</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Flat dumbbell bench press</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Plank holds</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>N/A</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>30 seconds</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Swiss ball leg curls</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Prone dumbbell rows</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Incline dumbbell bicep curls</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div id="week-two-day4" class="day">
+              <div class="day-title">Day 4 - Body Top</div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Swiss ball leg curls</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Prone dumbbell rows</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Incline dumbbell bicep curls</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Dumbbell goblet squats</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Flat dumbbell bench press</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>15-20</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>2110</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="exercise">
+                <div class="exercise-heading">
+                  <a href="#video-link" class="exercise-video"></a>
+                  <span class="exercise-title">Plank holds</span>
+                  <a href="#" class="exercise-toggle"><span></span><span></span></a>
+                </div>
+                <div class="exercise-content">
+                  <table>
+                    <tr class="method">
+                      <td>Method</td>
+                      <td>-</td>
+                    </tr>
+                    <tr class="sets">
+                      <td>Sets</td>
+                      <td>2-3</td>
+                    </tr>
+                    <tr class="reps">
+                      <td>Reps</td>
+                      <td>N/A</td>
+                    </tr>
+                    <tr class="tempo">
+                      <td>Tempo</td>
+                      <td>30 seconds</td>
+                    </tr>
+                    <tr class="rest">
+                      <td>Rest</td>
+                      <td class="rest-target">10 seconds</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="workout-footer">
+          <div class="current-week">Week 2</div>
+          <div class="current-weight">Weight: <span class="weight-target">180.91</span><input type="text" class="weight-edit"><span class="w-point">lbs</span></div>
+          <a href="#" class="set-weight">Edit</a>
+        </div>
+      </div>
+    </div>
+    <div class="video-popup">
+      <a href="#" class="close-popup"></a>
+      <div class="popup-inner">
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/rBJ2OSWFKkA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
+      </div>
+      <div class="popup-overlay"></div>
+    </div>
+	<footer>
+		<div class="f-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<img src="img/logo-footer.png" alt="logo-footer">
+						<ul class="social">
+							<li><a href="#"><img src="img/icon-facebook.png" alt="facebook"></a></li>
+							<li><a href="#"><img src="img/icon-instagram.png" alt="instagram"></a></li>
+							<li><a href="#"><img src="img/icon-twitter.png" alt="twitter"></a></li>
+							<li><a href="#"><img src="img/icon-yotube.png" alt="yotube"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="f-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 box-f-b">
+						<p>&copy; 2017 . "KAFALIAN FITNESS" All Right Reserved</p>
+						<a href="#">Terms of Conditions</a>
+						<a href="#">Privacy Policy</a>
+						<a href="#">Powered by CGPSystems</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./js/bootstrap.min.js"></script>
+	  <script src="./js/owl.carousel.min.js"></script>
+	  <script src="./js/easytimer.min.js"></script>
+    <script src="./js/app.js"></script>
+	  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWCyHQV00l7SwJBf19HRwox01iU2d9f64"></script>
+    <script src="./js/map-contact.js"></script>
+    <script src="./js/tables.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="./js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
+</html>

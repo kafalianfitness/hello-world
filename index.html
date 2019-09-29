@@ -1,18 +1,363 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
 
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
+    <title>Kafalian Fitness</title>
 
-<body>
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+    <!-- Custom styles for this template -->
+    <link href="./css/owl.carousel.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 
-</body>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="./js/ie8-responsive-file-warning.js"></script><![endif]-->
+   <!--  <script src="./js/ie-emulation-modes-warning.js"></script> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Kafalian Fitness</a> -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="my_profile">My Profile</a></li>
+				<li><a href="#my_workouts">My Workouts</a></li>
+				<li><a href="#find">Find a workout partner</a></li>
+				<li><a href="#recipes">Recipes</a></li>
+			</ul>
+			<a class="contact-btn">Contact us</a>
+        </div>
+      </div>
+    </nav>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-7 text-left">
+					<img class="logo" src="img/logo.png" alt="logo">
+					<h1 class="title-box">Perform fitness in your lifestyle</h1>
+					<p class="sub-title-box">Personalised and tailored programs using an evidence based approach and specialising in fat loss and hypertrophy. An online movement analysis is included and programs are updated every 4 weeks with no lock in contracts</p>
+					<a href="#" class="btn">Watch a video</a>
+				</div>
+			</div>
+		</div>
+		<div class="header-slider owl-carousel">
+			<div class="item" style="background-image:url(../img/bg-header.jpg);"></div>
+			<div class="item" style="background-image:url(../img/bg-header2.jpg);"></div>
+		</div>
+		<a href="#" class="customPrevBtn"></a>
+		<a href="#" class="customNextBtn"></a>
+	</header>
+	
+    <section id="online_training" class="online_training">
+		<div class="container">
+		  <div class="row">
+			  <div class="col-sm-12 text-center">
+				<h2 class="title-box">Online training</h2>
+				<p class="sub-title-box">Sed nec est non ligula tincidunt eleifend et sed dolor. Fusce efficitur <br>semper est, eu tincidunt mauris lobortis sed.</p>
+			  </div>
+		  </div>
+		  <div class="row">
+			  <div class="col-sm-4">
+				<div class="training">
+					<h3>Just Nutrition</h3>
+					<span class="price">$99 AUD</span>
+					<ul class="property">
+						<li>- Macro Breakdown and Nutritional Advice 
+						<li>- Cardio Program </li>
+						<li>- Weekly Check-Ins</li>
+						<li>- Support Service</li>
+						<li>- Supplement Advice</li>
+					</ul>
+					<div class="training-bottom">
+						<label>Quantity</label>
+						<input type="number" name="quantity" value="1">
+						<a href="#" class="btn h-b add-to-cart">Add to cart <img src="img/icon-cart.png" alt="cart"></a>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-sm-4">
+				<div class="training">
+					<h3>Training & Nutrition</h3>
+					<span class="price">$189 AUD  <del>$199 AUD</del></span>
+					<ul class="property">
+						<li>- Personalised Training Program </li>
+						<li>- Cardio Program</li>
+						<li>- Weekly Check-Ins </li>
+						<li>- Support Service</li>
+						<li>- Program Periodisation</li>
+						<li>- Macro Breakdown and Nutritional Advice </li>
+						<li>- Supplement Advice</li>
+					</ul>
+					<div class="training-bottom">
+						<label>Quantity</label>
+						<input type="number" name="quantity" value="1">
+						<a href="#" class="btn h-b add-to-cart">Add to cart <img src="img/icon-cart.png" alt="cart"></a>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-sm-4">
+				<div class="training">
+					<h3>Just Training</h3>
+					<span class="price">$99 AUD</span>
+					<ul class="property">
+						<li>- Personalised Training Program</li>
+						<li>- Cardio Program</li>
+						<li>- Weekly Check-Ins</li> 
+						<li>- Support Service</li>
+						<li>- Program Periodisation</li>
+						<li>- Supplement Advice</li>
+					</ul>
+					<div class="training-bottom">
+						<label>Quantity</label>
+						<input type="number" name="quantity" value="1">
+						<a href="#" class="btn h-b add-to-cart">Add to cart <img src="img/icon-cart.png" alt="cart"></a>
+					</div>
+				</div>
+			  </div>
+			</div>
+		</div> <!-- /container -->
+	</section>
+	
+	
+	<section id="one_no_one" class="one_no_one">
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-7 text-left">
+				<h2 class="title-box">One no one</h2>
+				<p class="sub-title-box">personal training based in Sydney CBD which includes an initial assessment, programming, nutritional guidance and the benefit of having an expert monitor your technique and progress.</p>
+			  </div>
+		  </div>
+		</div>
+	</section>
+	<section id="personal_training" class="personal_training">
+		<div class="container">
+		  <div class="row">
+			  <div class="col-sm-12 text-center">
+				<h2 class="title-box">PERSONAL TRAINING</h2>
+				<p class="sub-title-box">Sed nec est non ligula tincidunt eleifend et sed dolor. Fusce efficitur <br>semper est, eu tincidunt mauris lobortis sed.</p>
+			  </div>
+		  </div>
+		  <div class="row">
+			  <div class="col-sm-4">
+				<div class="training">
+					<h3>Single Session <span class="time">45min</span></h3>
+					<span class="price">$99 AUD</span>
+					<ul class="property">
+						<li>- Postural Assessment</li>
+						<li>- One on One training</li>
+						<li>- Supplement Advice</li>
+					</ul>
+					<div class="training-bottom">
+						<label>Quantity</label>
+						<input type="number" name="quantity" value="1">
+						<a href="#" class="btn h-b add-to-cart">Add to cart <img src="img/icon-cart.png" alt="cart"></a>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-sm-4">
+				<div class="training">
+					<h3>6 Sessions <span class="time">45min</span></h3>
+					<span class="price">$570 AUD   <del>$594 AUD</del></span>
+					<ul class="property">
+						<li>- Postural Assessment</li>
+						<li>- One on One training</li>
+						<li>- Personalised Exercise Program</li>
+						<li>- Macro Breakdown and Nutritional Advice </li>
+						<li>- Supplement Advice</li>
+					</ul>
+					<div class="training-bottom">
+						<label>Quantity</label>
+						<input type="number" name="quantity" value="1">
+						<a href="#" class="btn h-b add-to-cart">Add to cart <img src="img/icon-cart.png" alt="cart"></a>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-sm-4">
+				<div class="training">
+					<h3>12 Sessions <span class="time">45min</span></h3>
+					<span class="price">$1080 AUD   <del>$1100 AUD</del></span>
+					<ul class="property">
+						<li>- Postural Assessment</li>
+						<li>- One on One training</li>
+						<li>- Personalised Exercise Program</li>
+						<li>- Macro Breakdown and Nutritional Advice </li>
+						<li>- Supplement Advice</li>
+					</ul>
+					<div class="training-bottom">
+						<label>Quantity</label>
+						<input type="number" name="quantity" value="1">
+						<a href="#" class="btn h-b add-to-cart">Add to cart <img src="img/icon-cart.png" alt="cart"></a>
+					</div>
+				</div>
+			  </div>
+			</div>
+		</div> <!-- /container -->
+	</section>
+	<section id="transformation" class="transformation">
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-12 text-center">
+				<h2 class="title-box">Transformation</h2>
+				<p class="sub-title-box">personal training based in Sydney CBD which includes an initial assessment, programming,<br> nutritional guidance and the benefit of having an expert monitor your technique and progress.</p>
+			</div>
+			<div class="col-sm-12 transformation-slider owl-carousel">
+				<img src="img/transformation1.jpg" alt="transformation1">
+				<img src="img/transformation2.jpg" alt="transformation2">
+				<img src="img/transformation3.jpg" alt="transformation3">
+				<img src="img/transformation1.jpg" alt="transformation4">
+				<img src="img/transformation2.jpg" alt="transformation5">
+			</div>
+			<div class="col-sm-12 text-center">
+				<a class="btn-black">Contact Us</a>
+			</div>
+		  </div>
+		</div>
+	</section>
+	<section id="about" class="about">
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-12 text-center">
+				<h2 class="title-box">About</h2>
+				<p class="sub-title-box">Our history is our dignity</p>
+			</div>
+			<div class="col-sm-6 box-text">
+				<p>My passion for health and fitness was ignited when I was 16 years old and began training in the gym with my friends where we would spend hours each day after school. Pretty soon I was hooked on training and on a mission to become a bodybuilder-  the famous physiques of Arnold Schwarzenegger and Ronnie Coleman inspired me to see how far I could push my own body transformation.</p>
+				<p>After completing cert 3 and 4, I began my personal training career in 2007 and since then I have helped hundreds of clients transform their lives through transforming their physiques and way of life.</p>
+				<p>I believe in using scientifically sound and evidence based methods to design and tailor both training programs and nutrition plans for each individual client.</p>
+				<p>With an ongoing love and passion for all aspects of training and a hunger to always learn more, I believe I can help anyone reach their health goals.</p>
+				<p>I have had the privilege to be a Vital strength sponsored athlete and work as a fitness model for reputable brands such as fitness first and fat blaster, as well as being featured in Cosmopolitan magazine.</p>
+				<a href="#" class="btn h-b">Watch a video</a>
+			</div>
+			<div class="col-sm-6">
+				<div class="video-box">
+					<img src="img/about-video.jpg" alt="video">
+					<a href="https://www.youtube.com/watch?v=dyLV6gnu-wg" class="openpopupvideo play_btn"></a>
+				</div>
+			</div>
+		</div>
+		<div class="row bottom-about">
+			<div class="col-sm-12">
+				<hr>
+			</div>
+			<div class="col-sm-6">
+				<h3>Qualifications</h3>
+				<ul>
+					<li>Certificate 3 gym instructor</li>  
+					<li>Certificate 4 personal training</li> 
+					<li>Certified kettle bell instructor</li> 
+					<li>ASCA strength and condtitioning coach</li> 
+					<li>BFI level 1 General Preparation Phase and Theory</li> 
+					<li>BFI level 2 and 3 in strength and hypertrophy</li>  
+					<li>Precision nutrition level 1</li> 
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<h3>Experience</h3>
+				<ul> 
+					<li>10+ years personal training</li> 
+					<li>15+ years hypertrophy training </li> 
+					<li>Vital strength sponsored athlete </li> 
+					<li>Cosmopolitan magazine, fat blaster and fitness first feature model </li>  
+					<li>100s of successful client body transformations</li> 
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section id="contact" class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h2 class="title-box">Contact us</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<h3 class="title-box2">Contact form</h3>
+					<form>
+						<input type="text" name="name" placeholder="Your Full Name" class="input-txt">
+						<input type="email" name="email" placeholder="Your email" class="input-txt">
+						<input type="text" name="subject" placeholder="Subject" class="input-txt">
+						<textarea name="message" placeholder="Your message" class="textarea-txt"></textarea>
+						<input type="submit" class="btn" value="Submit">
+					<form>
+				</div>
+				<div class="col-sm-6 text-left">
+					<h3 class="title-box2">Find us on map</h3>
+					<div id="map-contact" class="map">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<footer>
+		<div class="f-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<img src="img/logo-footer.png" alt="logo-footer">
+						<ul class="social">
+							<li><a href="#"><img src="img/icon-facebook.png" alt="facebook"></a></li>
+							<li><a href="#"><img src="img/icon-instagram.png" alt="instagram"></a></li>
+							<li><a href="#"><img src="img/icon-twitter.png" alt="twitter"></a></li>
+							<li><a href="#"><img src="img/icon-yotube.png" alt="yotube"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="f-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 box-f-b">
+						<p>&copy; 2017 . "KAFALIAN FITNESS" All Right Reserved</p>
+						<a href="#">Terms of Conditions</a>
+						<a href="#">Privacy Policy</a>
+						<a href="#">Powered by CGPSystems</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./js/bootstrap.min.js"></script>
+	<script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/app.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWCyHQV00l7SwJBf19HRwox01iU2d9f64"></script>
+    <script src="./js/map-contact.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="./js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
 </html>
